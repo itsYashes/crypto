@@ -43,7 +43,7 @@ function Coin() {
               {loadCoin && <span className="loader"></span>}
               {coin.image ? <img src={coin.image.large} alt={coin.id} /> : null}
               <h2>{coin.name}</h2>
-              <p>Rank: #{coin.coingecko_rank}</p>
+              <p>Rank: #{coin.market_cap_rank}</p>
             </div>
             <div className="coin-content__text-side">
               <div className="numb">
